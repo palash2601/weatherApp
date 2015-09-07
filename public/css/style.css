@@ -1,0 +1,60 @@
+
+body {
+	background: url(../img/789.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-partial{
+	color: white;
+    padding: 8% 0;
+    background-color: rgba(25, 22, 53, 0.76);
+    margin-top: 0.5%;
+}
+.header{
+	margin: 0 auto;
+	width: 66%;
+	color: white;
+}
+.searchForm{
+	margin: 0 auto;
+	width: 66%;
+}
+.AppContainer{
+
+	margin: 0px;
+
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.searchDiv{
+	height: 277px;
+	padding-top: 120px;
+	background-color: rgba(25, 22, 53, 0.76);
+}
+
+.forecastContainer{
+	background-color: rgba(222, 202, 202, 0.78);
+	padding: 2px 27px;
+	margin: 15px 25px;
+}
+.weatherCard{
+	margin: 5px;
+	width: 185px;
+	background: #EFF4FB;
+	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.13);
+	-moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.13);
+	box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.13);
+}
+
+.weatherCard:hover{
+	margin: 5px;
+	width: 185px;
+	background: #EFF4FB;
+	-webkit-box-shadow: 0px 0px 2px 6px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 2px 6px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 2px 6px rgba(0,0,0,0.3);
+}
+
+.weatherCardContent{
+	text-align: center;
+}
