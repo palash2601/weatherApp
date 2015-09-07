@@ -2,15 +2,11 @@
   "name": "Weather-Application",
   "version": "0.1.0",
   "main": "server.js",
-  "devDependencies": {
-	"express" : "4.13.3",
-    "grunt": "~0.4.4",
-    "grunt-contrib-jshint": "latest",
-    "jshint-stylish": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-cssmin": "latest",
-    "grunt-contrib-watch": "latest"
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+	"express" : "4.13.3"
   },
   "engines": {
     "node": "0.12.7"
